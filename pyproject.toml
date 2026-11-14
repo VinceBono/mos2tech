@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mos2tech"
+version = "0.1.0"
+description = "Military occupation code -> civilian tech roles, skill gaps and certifications, from public O*NET data"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Vince Bono" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+mos2tech = "mos2tech.cli:main"
+
+[project.urls]
+Repository = "https://github.com/VinceBono/mos2tech"
+
+[tool.setuptools]
+packages = ["mos2tech"]
+
+[tool.setuptools.package-data]
+mos2tech = ["certs.json", "onet/*"]
+
+[tool.ruff]
+line-length = 130
+extend-exclude = ["scripts/commitguard.py"]  # vendored from oss-license-kit
