@@ -1,0 +1,13 @@
+{
+  "15-1212.00": ["CompTIA Security+", "CompTIA CySA+", "CISSP (needs 5 years of experience)"],
+  "15-1231.00": ["CompTIA Network+", "Cisco CCNA"],
+  "15-1232.00": ["CompTIA A+", "CompTIA Network+"],
+  "15-1241.00": ["Cisco CCNA", "Cisco CCNP"],
+  "15-1242.00": ["Microsoft Azure Database Administrator Associate"],
+  "15-1244.00": ["CompTIA Linux+", "Red Hat RHCSA", "Microsoft Azure Administrator Associate"],
+  "15-1252.00": ["AWS Certified Developer - Associate (a portfolio matters more)"],
+  "15-1299.04": ["CompTIA Security+", "CompTIA PenTest+", "OffSec OSCP"],
+  "15-1299.05": ["CompTIA Security+", "CISSP (needs 5 years of experience)"],
+  "15-1299.06": ["CompTIA Security+", "GIAC GCFE", "GIAC GCFA"],
+  "15-1299.09": ["CAPM", "PMP (needs project experience)"]
+}
